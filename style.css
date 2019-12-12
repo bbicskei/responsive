@@ -1,0 +1,50 @@
+.fluid-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: /* 10px*/ 1em; /*we can use 1em -because it is relative unit*/
+}
+div{
+    background-color: salmon;
+}
+
+html,  body{
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    /*width:300px;*/
+}
+header{
+    display:block;
+    /*width:300px;*/
+    position:fixed; /*csak így működik, hogy az ikont ehhez udjam igazítani?*/
+    left:0;
+}
+h1{
+    font-size: 64px;
+    text-align: right;
+    margin-bottom:50px;
+    margin-top:50px;
+    padding-left:0.5em;
+}
+main{
+    background-color: yellow;
+    font-size: 36px;
+    padding:15px;
+}
+/*div{
+    background-color: gray;
+    width:280px;
+    padding:10px;}*/
+
+img{
+    position: absolute;
+    right:0px; /*ha 0-ra állítom, akkor miért csűszik le a szürkérl?*/
+    width: 40px;
+}
+
+
+@media (max-width: 500px) {
+  div{
+    background-color: lightgreen;
+  }
+
+}
